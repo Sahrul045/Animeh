@@ -1,0 +1,542 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+
+}
+
+span {
+    color: #EE0191;
+}
+
+.search {
+    display: flex;
+    width: 1100px;
+    max-width: 90%;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.search form {
+    margin: 0 auto;
+    width: 600px;
+    max-width: 100%;
+    position: relative;
+
+}
+
+.search form input:first-child {
+    padding: 14px 5px;
+    width: 100%;
+    outline: none;
+    border-radius: 30px;
+    border: 2px solid #EE0191;
+    display: inline-block;
+
+}
+
+.search form input:last-child {
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    display: inline-block;
+    background-color: #EE0191;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    box-shadow: 0px 0px 5px #858585, 0px 0px 10px #b3b1b1;
+    cursor: pointer;
+}
+
+.search img {
+    width: 98px;
+    height: 90px;
+    cursor: pointer;
+}
+
+.search img:hover {
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+/* section first page */
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.main .text {
+    width: 545px;
+    transform: translateY(-35%);
+}
+
+.text h1 {
+    font-size: 40px;
+}
+
+.text p {
+    line-height: 25px;
+    margin: 25px 0px;
+    font-weight: bold;
+}
+
+.btn-1 {
+    padding: 10px 20px;
+    background-color: #EE0191;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 2px solid transparent;
+}
+
+.btn-1:hover {
+    transition: .2s;
+    border: 2px solid #EE0191;
+    background-color: transparent;
+    color: #EE0191;
+}
+
+.main img {
+    width: 400px;
+}
+
+/* end section first page */
+
+/* section members */
+.member {
+    padding: 100px 0px;
+}
+
+.member h3 {
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 35px;
+}
+
+.band {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.band .bocchi img {
+    width: 256px;
+    height: 270px;
+    border: 2px solid #EE0191;
+    border-radius: 20px;
+}
+
+.band .text2 {
+    width: 297px;
+    min-height: 250px;
+}
+
+.band .text2 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #EE0191;
+}
+
+.band .text2 p {
+    line-height: 36px;
+    margin: 15px 0px 30px 0px;
+
+
+}
+
+.band .text2 a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    background-color: #EE0191;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.band .text2 a:hover {
+    color: #EE0191;
+    background-color: transparent;
+    border: 2px solid #EE0191;
+}
+
+.band .hobby {
+    width: 297px;
+    min-height: 250px;
+
+}
+
+.band .hobby h2 {
+    font-size: 20px;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #EE0191;
+    width: 130px;
+    text-align: center;
+}
+
+.band .hobby p {
+    line-height: 36px;
+    margin: 15px 0px;
+}
+
+.band .nijika img {
+    width: 256px;
+    height: 270px;
+    border: none;
+    border: 2px solid #FFC300;
+    border-radius: 20px;
+}
+
+.band .text2 .test {
+    background-color: #FFC300;
+    border: 2px solid transparent;
+}
+
+.band .text2 .test:hover {
+    background-color: transparent;
+    border: 2px solid #FFC300;
+    color: #FFC300;
+}
+
+.band .hobby .h2 {
+    font-size: 20px;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #FFC300;
+    width: 130px;
+    text-align: center;
+}
+
+.band .ryo img {
+    width: 256px;
+    height: 270px;
+    border: none;
+    border: 2px solid #0008FF;
+    border-radius: 20px;
+}
+
+.band .hobby .h3 {
+    font-size: 20px;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #0008FF;
+    width: 130px;
+    text-align: center;
+}
+
+.band .text2 .ryo-a {
+    background-color: #0008FF;
+    border: 2px solid transparent;
+}
+
+.band .text2 .ryo-a:hover {
+    background-color: transparent;
+    color: #0008FF;
+    border: 2px solid #0008FF;
+}
+
+.band .kita img {
+    width: 256px;
+    height: 270px;
+    border: none;
+    border: 2px solid #C70039;
+    border-radius: 20px;
+}
+
+.band .hobby .h4 {
+    font-size: 20px;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #C70039;
+    width: 130px;
+    text-align: center;
+}
+
+.band .text2 .ikuyo {
+    background-color: #C70039;
+    border: 2px solid transparent;
+}
+
+.band .text2 .ikuyo:hover {
+    background-color: transparent;
+    color: #C70039;
+    border: 2px solid #C70039;
+}
+
+/* end section members */
+
+/* section merchandise */
+
+.purchase {
+    width: 100%;
+    padding: 0px 0px 100px 0px;
+}
+
+.purchase h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+    color: #EE0191;
+}
+
+.buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.buy img {
+    width: 577px;
+    height: 530px;
+
+}
+
+.buy .get {
+    width: 423px;
+    height: 293px;
+    line-height: 30px;
+
+}
+
+.buy .get p {
+    margin: 30px 0px;
+    font-weight: bold;
+
+}
+
+/* end section merchandise */
+
+/* footer section */
+
+section {
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    width: 221px;
+    height: 262px;
+    position: relative;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 3px 5px #c9c7c7;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: scale(.9);
+}
+
+.icon {
+    width: 100%;
+    height: 120px;
+    background-color: #EE0191;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon i {
+    font-size: 50px;
+    color: #fff;
+}
+
+.precious {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.precious p:nth-child(1) {
+    font-weight: bold;
+}
+
+.precious p a {
+    font-weight: bold;
+    color: #EE0191;
+    text-decoration: none;
+}
+
+.card p {
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.icon2 {
+    width: 100%;
+    height: 120px;
+    background-color: #FFC300;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon2 i {
+    font-size: 50px;
+    color: #fff;
+}
+
+.precious .yellow {
+    color: #FFC300;
+}
+
+.icon3 {
+    width: 100%;
+    height: 120px;
+    background-color: #0008FF;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon3 i {
+    font-size: 50px;
+    color: #fff;
+}
+
+.precious .blue {
+    color: #0008FF;
+}
+
+.icon4 {
+    width: 100%;
+    height: 120px;
+    background-color: #C70039;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon4 i {
+    font-size: 50px;
+    color: #fff;
+}
+
+.precious .red {
+    color: #C70039;
+}
+
+/* end footer section */
+
+footer {
+    background: #EE0191;
+    width: 100%;
+    height: 544px;
+    position: relative;
+    padding: 50px 40px 0px 40px;
+
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.end {
+    margin-right: 90px;
+}
+
+.end img {
+    width: 98px;
+    height: 90px;
+    cursor: pointer;
+}
+
+.end h3 {
+    text-transform: capitalize;
+    color: #fff;
+    margin: 30px 0px;
+}
+
+.end p {
+    width: 400px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.end1 {
+    margin-top: 120px;
+    margin-right: 50px;
+}
+
+.end1 h3 {
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+
+.end1 ul li {
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.end1 ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.end2 {
+    margin-top: 120px;
+}
+
+.end2 h3 {
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+
+.end2 ul li {
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.end2 ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.last {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+
+.last ul li {
+    list-style-type: none;
+    padding: 10px 0px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.last ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
